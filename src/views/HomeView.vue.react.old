@@ -1,0 +1,43 @@
+<template>
+  <div class="home">
+    <h1>Home</h1>
+    <h2>Refs</h2>
+    <p>{{ timTim.name }} - {{ timTim.age }} - {{ nameOne }}</p>
+    <button @click="updateTimtim">Update Timtim</button>
+
+    <h2>Reactive</h2>
+    <p>{{timTimTwo.name}} - {{timTimTwo.age}}</p>
+    <button @click="updateTimtimTwo">Update TimtimTwo</button>
+  </div>
+</template>
+
+<script>
+import { ref, reactive } from 'vue'
+
+export default {
+    name: 'Home',
+    setup() {
+        const timTim = ref({ name: 'Tim', age: 22})
+        const timTimTwo = reactive({ name: 'Gray', age: 4})
+
+        const nameOne = ref('testOne')
+        // const nameTwo = reactive('testTwo') cannot be reactive since primitive
+        
+        const updateTimtim = () => {
+            timTim.value.age = 25
+            nameOne.value = 'oneName'
+        }
+
+        const updateTimtimTwo = () => {
+            timTimTwo.age = 10
+            //drawbacks no primitive vals
+        }
+
+        return {timTim, updateTimtim, timTimTwo, updateTimtimTwo, nameOne}
+    }
+}
+</script>
+
+<style>
+
+</style>

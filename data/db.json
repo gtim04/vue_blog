@@ -1,0 +1,16 @@
+{
+    "posts" : [
+        {
+            "title": "Welcome to the blog", 
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex doloribus perferendis voluptates quibusdam? Magnam eveniet mollitia quod qui nobis, nesciunt accusantium vitae sequi, blanditiis adipisci officia molestias! Eveniet aliquid mollitia delectus praesentium incidunt possimus quo molestias dolore. Illo beatae blanditiis nulla molestias natus quisquam! Repellendus fugiat laudantium pariatur eum. Ab libero perferendis, ea eveniet deserunt accusantium animi facere molestiae adipisci nostrum sequi nulla hic placeat, recusandae deleniti magnam magni laborum nemo quam vero tenetur consequatur expedita et? Sunt cum aspernatur veritatis dolorem ad delectus. Quas illo tenetur asperiores molestias tempore non quaerat, sequi, distinctio natus placeat dignissimos accusamus vero voluptate.", 
+            "id": 1,
+            "tags": ["dota", "tips", "tricks"]
+        },
+        {
+            "title": "top 5 dota tips", 
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex doloribus perferendis voluptates quibusdam? Magnam eveniet mollitia quod qui nobis, nesciunt accusantium vitae sequi, blanditiis adipisci officia molestias! Eveniet aliquid mollitia delectus praesentium incidunt possimus quo molestias dolore. Illo beatae blanditiis nulla molestias natus quisquam! Repellendus fugiat laudantium pariatur eum. Ab libero perferendis, ea eveniet deserunt accusantium animi facere molestiae adipisci nostrum sequi nulla hic placeat, recusandae deleniti magnam magni laborum nemo quam vero tenetur consequatur expedita et? Sunt cum aspernatur veritatis dolorem ad delectus. Quas illo tenetur asperiores molestias tempore non quaerat, sequi, distinctio natus placeat dignissimos accusamus vero voluptate.", 
+            "id": 2,
+            "tags": ["offlane", "midlane", "safelane"]
+        }
+    ]
+}
